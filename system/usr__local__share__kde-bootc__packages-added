@@ -13,16 +13,16 @@ vifm
 python3-pip
 
 # Cockpit
-cockpit
-cockpit-podman
-cockpit-selinux
-cockpit-machines
+#cockpit
+#cockpit-podman
+#cockpit-selinux
+#cockpit-machines
 
 # Virtualisation
-qemu-kvm
-libvirt
-virt-install
-virt-viewer
+#qemu-kvm
+#libvirt
+#virt-install
+#virt-viewer
 
 # Tailscale network
 tailscale
@@ -30,6 +30,7 @@ tailscale
 # Troubleshooting
 lshw
 htop
+btop
 ncdu
 nmap
 

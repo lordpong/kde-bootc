@@ -1,10 +1,10 @@
 {
-    "userName" : "admin",
-    "realName" : "Administrator",
+    "userName" : "pberg",
+    "realName" : "Ulrich Peter Berg",
     "storage" : "luks",
     "fileSystemType" : "btrfs",
     "diskSize" : 10737418240,
-    "luksDiscard" : false,
+    "luksDiscard" : true,
     "luksOfflineDiscard" : true,
     "luksResizeMode" : "shrink-and-grow",
     "rebalanceWeight" : false,

@@ -4,7 +4,7 @@
 # Setup HOST 
 ###############################################
 
-HOST_NAME=kde-bootc
+HOST_NAME=nebula
 hostnamectl hostname $HOST_NAME
 
 ###############################################

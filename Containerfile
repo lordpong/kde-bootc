@@ -1,5 +1,5 @@
 FROM quay.io/fedora/fedora-bootc:42
-MAINTAINER First Last
+LABEL org.opencontainers.image.authors="peter.berg@rumrussen.de"
 
 # SETUP FILESYSTEM
 RUN rmdir /opt && ln -s -T /var/opt /opt
