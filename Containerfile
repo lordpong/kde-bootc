@@ -29,7 +29,7 @@ COPY --chmod=0644 ./system/etc__skel__kde-bootc /etc/skel/.bashrc.d/kde-bootc
 COPY --chmod=0600 ./system/usr__lib__ostree__auth.json /usr/lib/ostree/auth.json
 
 # USERS
-COPY --chmod=0644 ./system/usr__lib__credstore__home.create.admin /usr/lib/credstore/home.create.admin
+COPY --chmod=0644 ./system/usr__lib__credstore__home.create.pberg /usr/lib/credstore/home.create.pberg
 
 COPY --chmod=0755 ./scripts/* /tmp/scripts/
 RUN /tmp/scripts/config-users
