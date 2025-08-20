@@ -4,7 +4,7 @@
 
 # LibreOffice
 libreoffice
-libreoffice-help-en
+libreoffice-help-de
 
 # Utilities
 vim-default-editor
@@ -42,6 +42,10 @@ printer-driver-brlaser
 ptouch-driver
 splix
 
+# Localisation
+hunspell-de
+
 # System
 kamera
 lm_sensors
+distrobox
