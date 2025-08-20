@@ -3,7 +3,7 @@
     "realName" : "Ulrich Peter Berg",
     "storage" : "luks",
     "fileSystemType" : "btrfs",
-    "diskSize" : 10737418240,
+    "diskSize" : 107374182400,
     "luksDiscard" : true,
     "luksOfflineDiscard" : true,
     "luksResizeMode" : "shrink-and-grow",
