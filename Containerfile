@@ -13,6 +13,7 @@ RUN jq -r .packages[] /usr/share/rpm-ostree/treefile.json > /usr/local/share/kde
 # INSTALL REPOS
 RUN dnf -y install dnf5-plugins
 RUN dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo 
+RUN dnf config-manager addrepo --from-repofile=https://packages.microsoft.com/yumrepos/vscode/config.repo
 
 # INSTALL PACKAGES
 RUN dnf -y install @kde-desktop-environment

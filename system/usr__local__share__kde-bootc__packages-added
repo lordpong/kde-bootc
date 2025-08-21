@@ -11,6 +11,7 @@ vim-default-editor
 git
 vifm
 python3-pip
+code
 
 # Cockpit
 #cockpit
