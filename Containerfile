@@ -13,11 +13,16 @@ RUN jq -r .packages[] /usr/share/rpm-ostree/treefile.json > /usr/local/share/kde
 # INSTALL REPOS
 RUN dnf -y install dnf5-plugins
 RUN dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo 
+RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc
 RUN dnf config-manager addrepo --from-repofile=https://packages.microsoft.com/yumrepos/vscode/config.repo
+RUN dnf -y install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-42.noarch.rpm
+RUN dnf -y install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-42.noarch.rpm
 
 # INSTALL PACKAGES
 RUN dnf -y install @kde-desktop-environment
+RUN dnf -y swap ffmpeg-free ffmpeg --allowerasing
 RUN grep -vE '^#' /usr/local/share/kde-bootc/packages-added | xargs dnf -y install --allowerasing
+RUN dnf -y install https://download3.ebz.epson.net/dsc/f/03/00/16/21/78/068524457859755fc01cd53db5b57889f9972d22/epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
 
 # REMOVE PACKAGES
 RUN grep -vE '^#' /usr/local/share/kde-bootc/packages-removed | xargs dnf -y remove
