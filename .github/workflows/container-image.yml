@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-  - cron: '30 13 * * FRI'    # Triggers Fri at 13:30
+  - cron: '0 3 * * *'
 
 
 jobs:
