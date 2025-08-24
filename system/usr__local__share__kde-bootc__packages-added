@@ -16,17 +16,17 @@ code
 ffmpegthumbs
 
 # Cockpit
-#cockpit
-#cockpit-podman
-#cockpit-selinux
-#cockpit-machines
+# cockpit
+# cockpit-podman
+# cockpit-selinux
+# cockpit-machines
 
 # Virtualisation
-qemu-kvm
-libvirt
-virt-install
-virt-viewer
-virt-manager
+# qemu-kvm
+# libvirt
+# virt-install
+# virt-viewer
+# virt-manager
 
 # Tailscale network
 tailscale
@@ -56,3 +56,4 @@ powertop
 acpi
 distrobox
 intel-media-driver
+ykocli
