@@ -26,6 +26,7 @@ qemu-kvm
 libvirt
 virt-install
 virt-viewer
+virt-manager
 
 # Tailscale network
 tailscale
