@@ -22,10 +22,10 @@ ffmpegthumbs
 #cockpit-machines
 
 # Virtualisation
-#qemu-kvm
-#libvirt
-#virt-install
-#virt-viewer
+qemu-kvm
+libvirt
+virt-install
+virt-viewer
 
 # Tailscale network
 tailscale
