@@ -52,4 +52,7 @@ hunspell-de
 # System
 kamera
 lm_sensors
+powertop
+acpi
 distrobox
+intel-media-driver
