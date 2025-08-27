@@ -2,9 +2,9 @@ name: build container -> kde-bootc
 run-name: building container -> kde-bootc
 on: 
   workflow_dispatch:
-  push:
+  # push:                     # Disable rebuild at push
   schedule:
-  - cron: '0 3 * * *'
+  - cron: '0 0 */3 * *'       # Run at 12:00 AM every 3 days
 
 
 jobs:
