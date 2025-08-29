@@ -37,6 +37,7 @@ htop
 btop
 ncdu
 nmap
+fastfetch
 
 # Printer drivers
 # https://pagure.io/workstation-ostree-config/blob/main/f/common.yaml
@@ -63,3 +64,4 @@ libburn
 libburn-doc
 udftools
 k3b
+tmux
